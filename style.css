@@ -10,15 +10,18 @@ body {
     text-align: center;
     color: aqua;
     font-family: arcade;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
 }
 
 .subtitle {
     text-align: center;
     font-family: "Kongtext";
     color: yellow;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
-.a1, .b2{
+.a1,
+.b2 {
     color: white;
     position: absolute;
     top: 70%;
@@ -27,12 +30,14 @@ body {
     transform: translate(-50%, -50%);
     font-size: 0.3rem;
 }
-.b2{
+
+.b2 {
     color: transparent;
     top: 15%;
     left: auto;
     right: 35%;
 }
+
 .b2::-moz-selection {
     /* Code for Firefox */
     color: red;
@@ -43,11 +48,12 @@ body {
     color: transparent;
     background: #956f17;
 }
-center{
+
+center {
     position: relative;
     margin: 0 auto;
 }
 
-center img{
+center img {
     transform: rotate(90deg);
 }
