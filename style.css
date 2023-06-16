@@ -18,13 +18,36 @@ body {
     color: yellow;
 }
 
-.a1{
+.a1, .b2{
     color: white;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
+    margin: 0 auto;
     transform: translate(-50%, -50%);
+    font-size: 0.3rem;
+}
+.b2{
+    color: transparent;
+    top: 15%;
+    left: auto;
+    right: 35%;
+}
+.b2::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+.b2::selection {
+    color: transparent;
+    background: #956f17;
 }
 center{
     position: relative;
+    margin: 0 auto;
+}
+
+center img{
+    transform: rotate(90deg);
 }
